@@ -7,6 +7,7 @@ html, body {
   transition: all 0.5s;
   color: lightgrey;
   background-color:#888;
+  clear:both;
 }
 
 nav, .nav {
@@ -22,9 +23,10 @@ nav, .nav {
 
 #welcome {
   position: absolute;
-  top: 9%;
+  top: 0;
   width:100%;
   background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+  clear:both;
 
 }
 
@@ -80,10 +82,10 @@ section {
 .register {
   font-size: 1.2em;
   margin: 3% auto 3% auto;
+  clear: both;
 }
 
 .register a {
-  border: #444 solid 2px;
   font-size: .8em;
 
 }
@@ -93,9 +95,7 @@ section {
   position:relative;
   clear:both;
 }
-.register {
-  padding:2%;
-}
+
 
 .footer {
   font-size:.45em;

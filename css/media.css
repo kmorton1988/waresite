@@ -7,7 +7,6 @@
     @media only screen and (max-width : 320px) {
       body {
       width:100%;
-      height:auto;
       }
 
       #welcome {
@@ -27,19 +26,11 @@
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-      body {
-        font-size: 20px;
-      
-    }
+    
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-      section {
-        height: auto;
-        clear:both;
-        margin:auto;
 
-      }
     }
 
     /* Large Devices, Wide Screens */
@@ -50,6 +41,10 @@
       body {
       width:100%;
       height:auto;
+      }
+      section {
+        width:100%;
+        height:auto;
       }
       #welcome {
         background: url("/img/Dancing-Bulbs.jpg");
