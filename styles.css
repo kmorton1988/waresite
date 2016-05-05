@@ -6,49 +6,61 @@ html, body {
   font-size:24px;
   transition: all 0.5s;
   color: lightgrey;
+  background-color:#888;
 }
 
 nav, .nav {
   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+  float:right;
+  width: auto;
 }
 
-nav img {
+.logo {
   width:9%;
 }
 
 
 #welcome {
   position: absolute;
-  top: 10%;
+  top: 9%;
   width:100%;
   background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
 
 }
 
 #welcome h1 {
-  margin-top: 20%;
+  margin-top: 13%;
   margin-bottom: 3%;
 }
 
 section {
   width:100%;
   height:100%;
+  clear:both;
 }
 
 .info {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/img/infobg.jpg");
   background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:#888;
   height: 100%;
+  clear:both;
+  position:relative;
+
 
 }
-.info h1, .contact h1 {
-  margin-top: 15%;
-  margin-bottom: 3%;
+.info h2, .contact h2 {
+  margin-top: 12%;
 }
 
 .speakers {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("/img/speakers.jpg");
-  background-position: center;
+  background-position: contain;
+  float:right;
+  position: relative;
+  clear: both;
 
 }
 .speakers img {
@@ -61,6 +73,8 @@ section {
 .carouseldots {
   position: relative;
   top: 10px;
+  left: 25%;
+  clear:both;
 }
 
 .register {
@@ -75,14 +89,17 @@ section {
 }
 .contact {
   background: #888;
+  height: 60%;
+  position:relative;
+  clear:both;
 }
 .register {
   padding:2%;
 }
 
-footer {
+.footer {
   font-size:.45em;
   color:#333;
   background: #888;
-
+  clear: both;
 }

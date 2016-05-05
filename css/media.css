@@ -1,14 +1,59 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-  width:100%;
-  height:auto;
-  }
 
-  video {
-    display: none;
-  }
-  .logo {
-    width:35%%;
-  }
-}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+      body {
+      width:100%;
+      height:auto;
+      }
+
+      #welcome {
+        top: 2%;
+      }
+
+      .logo {
+        width:20%;
+      }
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      body {
+        font-size: 20px;
+      
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      section {
+        height: auto;
+        clear:both;
+        margin:auto;
+
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1367px) {
+      video {
+        display: none;
+      }
+      body {
+      width:100%;
+      height:auto;
+      }
+      #welcome {
+        background: url("/img/Dancing-Bulbs.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+      }
+    }
