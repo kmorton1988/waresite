@@ -18,6 +18,8 @@ nav, .nav {
 
 .logo {
   width:9%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 
@@ -103,4 +105,11 @@ section {
   color:#333;
   background: #888;
   clear: both;
+}
+
+.thankyou {
+  margin: 20%;
+  clear: both;
+  position: relative;
+  top: 100px;
 }
