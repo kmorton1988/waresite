@@ -44,7 +44,7 @@ section {
 }
 
 .info {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("/img/infobg.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/img/infobg.jpg");
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
@@ -55,13 +55,30 @@ section {
 
 
 }
+
+.video{
+  width:100%;
+  height:100%;
+  background-color:#000;
+  height: 100%;
+  clear:both;
+  position:relative;
+}
+
+.videobox {
+  height:100%;
+  width:100%;
+  background: #000;
+  border: none;
+  padding:0;
+}
 .info h2, .contact h2 {
   margin-top: 12%;
 }
 
 .speakers {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("/img/speakers.jpg");
-  background-position: contain;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/img/speakers.jpg");
+  background-position: center;
   float:right;
   position: relative;
   clear: both;
